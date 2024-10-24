@@ -1,0 +1,10 @@
+---
+title: "Writing Functions"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(rvest)
+```
+
