@@ -3,14 +3,9 @@ title: "Writing Functions"
 output: github_document
 ---
 
-Load key packages.
-```{r setup, message = FALSE}
-library(tidyverse)
-library(rvest)
-```
-
-
 ```{r include = FALSE}
+library(tidyverse)
+
 knitr::opts_chunk$set(
         echo = TRUE,
         warning = FALSE,
@@ -29,6 +24,14 @@ options(
 scale_color_discrete = scale_colour_viridis_d
 scale_fill_discrete = scale_fill_viridis_d
 ```
+
+Load key packages.
+```{r setup, message = FALSE}
+library(tidyverse)
+library(readxl)
+library(rvest)
+```
+
 
 ## Writing my first function
 
